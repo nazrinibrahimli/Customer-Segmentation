@@ -1,5 +1,5 @@
 # Customer-Segmentation
-In the Customer Segmentation project, I implemented K-Means clustering on the Telco dataset to segment customers, achieving 3 distinct groups based on tenure, charges, and contract types. Visualization and silhouette scoring (peak ~0.3) confirmed the segmentation, aiding targeted marketing or retention strategies, complementing ChurnGuard’s predictive model. Computed cluster means for numeric features (tenure, MonthlyCharges, TotalCharges) to profile customer segments, resolving data type errors with selective aggregation.
+In the Customer Segmentation project, I implemented K-Means clustering on the Telco dataset to segment customers, achieving 3 distinct groups based on tenure, charges, and contract types. Visualization and silhouette scoring (peak ~0.3) confirmed the segmentation, supporting targeted marketing or retention strategies. Computed cluster means for numeric features (tenure, MonthlyCharges, TotalCharges) to profile customer segments, resolving data type errors with selective aggregation.
 
 Features: Uses tenure, MonthlyCharges, TotalCharges, Contract, and PaymentMethod to segment customers.
 Preprocessing: Scales numerical data and one-hot encodes categorical data for K-Means.
